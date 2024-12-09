@@ -1,6 +1,6 @@
+import PropTypes from 'prop-types';
 
-
-function FeatureCard({ icon, title, description }) {
+export default function FeatureCard({ icon, title, description }) {
   return (
     <div className="feature-card">
       <div className="feature-icon">{icon}</div>
@@ -10,4 +10,8 @@ function FeatureCard({ icon, title, description }) {
   );
 }
 
-export default FeatureCard;
+FeatureCard.propTypes = {
+  icon: PropTypes.node.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};

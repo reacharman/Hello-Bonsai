@@ -1,11 +1,10 @@
-
 import './Header.css';
 
-function Header() {
+export default function Header() {
   return (
     <header className="header">
       <nav className="nav">
-        <div className="logo"><img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg" alt="" /></div>
+        <div className="logo"><img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg"/></div>
         <div className="nav-links">
           <a href="#product">Product</a>
           <a href="#use-cases">Use cases</a>
@@ -22,5 +21,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

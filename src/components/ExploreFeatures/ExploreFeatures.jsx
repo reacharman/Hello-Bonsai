@@ -2,7 +2,7 @@ import FeatureCard from './FeatureCard';
 import Testimonial from './Testimonial';
 import './ExploreFeatures.css';
 
-function ExploreFeatures() {
+export default function ExploreFeatures() {
 
   const testimonial = {
     quote: [
@@ -47,5 +47,3 @@ function ExploreFeatures() {
     </section>
   );
 }
-
-export default ExploreFeatures;

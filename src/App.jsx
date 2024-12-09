@@ -1,12 +1,13 @@
-
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Features from './components/Features/Features';
 import ProjectTracking from './components/ProjectTracking/ProjectTracking';
+import MonitorUtilization from './components/MonitorUtilization/MonitorUtilization';
+import TurningBillable from './components/TurningBillable/TurningBillable';
 import ExploreFeatures from './components/ExploreFeatures/ExploreFeatures';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="app">
       <Header />
@@ -14,10 +15,10 @@ function App() {
         <Hero />
         <Features />
         <ProjectTracking />
+        <MonitorUtilization />
+        <TurningBillable />
         <ExploreFeatures />
       </main>
     </div>
   );
 }
-
-export default App;
