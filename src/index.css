@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gellix:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Gellix', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gellix', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Gellix', sans-serif;
+  font-weight: 400;
+}
+
+button, input, textarea, select {
+  font-family: 'Gellix', sans-serif;
+  font-weight: 500;
+}
