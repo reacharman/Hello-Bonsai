@@ -11,7 +11,7 @@ export default function FeatureCard({ icon, title, description }) {
 }
 
 FeatureCard.propTypes = {
-  icon: PropTypes.node.isRequired,
-  title: PropTypes.string.isRequired,
+  icon:        PropTypes.node.isRequired,
+  title:       PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };

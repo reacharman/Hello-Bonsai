@@ -1,5 +1,6 @@
+import PropTypes from 'prop-types';
 
-function Testimonial({ quote, author, image }) {
+export default function Testimonial({ quote, author, image }) {
   return (
     <div className="testimonial">
       <div className="testimonial-content">
@@ -15,4 +16,8 @@ function Testimonial({ quote, author, image }) {
   );
 }
 
-export default Testimonial;
+Testimonial.propTypes = {
+  quote:  PropTypes.arrayOf(PropTypes.string).isRequired,
+  author: PropTypes.string.isRequired,
+  image:  PropTypes.string.isRequired
+};

@@ -1,11 +1,13 @@
 .hero {
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-content {
   max-width: 800px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -62,10 +64,4 @@
 
 .stars {
   color: #2BB90A;
-}
-
-.review-sources {
-
-  color: #333;
-  font-weight: 500;
 }

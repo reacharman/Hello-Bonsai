@@ -5,6 +5,9 @@ import ProjectTracking from './components/ProjectTracking/ProjectTracking';
 import MonitorUtilization from './components/MonitorUtilization/MonitorUtilization';
 import TurningBillable from './components/TurningBillable/TurningBillable';
 import ExploreFeatures from './components/ExploreFeatures/ExploreFeatures';
+import GetStarted from './components/GetStarted/GetStarted';
+import FAQ from './components/FAQ/FAQ';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 export default function App() {
@@ -18,7 +21,10 @@ export default function App() {
         <MonitorUtilization />
         <TurningBillable />
         <ExploreFeatures />
+        <GetStarted />
+        <FAQ />
       </main>
+      <Footer />
     </div>
   );
 }

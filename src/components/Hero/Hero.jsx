@@ -19,7 +19,6 @@ export default function Hero() {
         <div className="reviews">
           <div className="stars">★★★★★</div>
           <span>based on 1000+ reviews from</span>
-          <div className="review-sources"></div>
         </div>
       </div>
     </div>

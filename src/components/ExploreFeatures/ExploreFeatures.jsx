@@ -15,13 +15,13 @@ export default function ExploreFeatures() {
 
   const features = [
     {
-      icon: '⏰',
+      icon: <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/635eaa2970620b7e4dd73978_timer.svg"/>,
       title: 'Invoices',
       description: 'Get paid on time using smart invoicing with automatic reminders, read-receipts and a variety of payment options.',
       buttonText: 'View more'
     },
     {
-      icon: '📋',
+      icon: <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/635ea64cb165568d5eef83b5_Paper.svg"/>,
       title: 'Task management',
       description: 'Stay on top of your ongoing tasks and todos with simple task creation, templating and due dates built right into your projects.',
       buttonText: 'View more'
@@ -43,7 +43,6 @@ export default function ExploreFeatures() {
           />
         ))}
       </div>
-      
     </section>
   );
 }

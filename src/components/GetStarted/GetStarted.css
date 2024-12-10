@@ -1,0 +1,40 @@
+.get-started {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .get-started h2 {
+    font-size: 3rem;
+    color: #333;
+    line-height: 1.2;
+    margin: 0;
+  }
+  
+  .get-started h2:last-of-type {
+    margin-bottom: 1.5rem;
+  }
+  
+  .get-started p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .get-started-btn {
+    padding: 1rem 2rem;
+    background: #2BB90A;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .get-started-btn:hover {
+    background: #2BB90A;
+  }
